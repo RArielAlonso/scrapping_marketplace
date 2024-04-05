@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "scrapping-marketplace"
+version = "0.1.0"
+description = ""
+authors = ["RArielAlonso <rariel.alonso@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+selenium = "^4.19.0"
+pandas = "^2.2.1"
+beautifulsoup4 = "^4.12.3"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
